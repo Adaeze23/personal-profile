@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Profile Picture</title>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+    </head>
+    <body>
+        <header id="header" class="fixed-top">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark pl-5 pr-5">
+              <a class="navbar-brand" href="">
+                  <img src="img/ada.jpg" class="rounded-circle" width="50px" height="50px" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+        </header><!-- /header -->
+        
+        <section style="background-image: url('img/web-image.jpg');background-size: cover;background-repeat: no-repeat;">
+            <div class="img-overlay">
+                <div id="intro" class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12 text-center pt-5 mt-5">
+                            <h1 class="mt-20 text-white"> FRONT-END DEVELOPER </h1>
+                            <p class="text-white"> HTML, CSS Javascript </p>
+                        </div>
+                    </div>  
+                </div>             
+            </div>
+        </section>
+
+        <section>
+            <div id="about" class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 py-5">
+                        <h1 class="lead text-center text-white">About Me</h1>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 pl-5 pr-5 text-right">
+                        <img src="img/ada.jpg" class="rounded-circle ml-auto d-block" width="150px" height="150px" alt="">
+                    </div>
+                    <div class="col-md-6 pl-5 pr-5 text-white">
+                        <p>I'm Adaeze Nwaiwu-Odus <br>
+                        Front-End Developer
+                        </p>
+                        State of origin: Imo State<br>
+                        Date of birth:   23rd Feb 1991<br>
+                        Address: Iwuno Street Awodi-ora Apapa<br>
+                        Occupation: Transaction Officer<br>
+                        Home Town: Umunama, Ezinihitte Mbaise, Imo State<br>
+                        Slack ID: 04033.
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div id="skills" class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1 class="lead text-white py-3">
+                            Skills
+                            <hr style="border: 2px solid #999; width: 30%;border-radius: 5px;" />
+                        </h1>
+                    </div>
+
+                    <div class="col-md-6 text-center text-white">
+                        <p>Coding Skills</p>
+                        <hr style="border: 2px solid #999; width: 10%;border-radius: 5px;" />
+                        <ul class="text-center">
+                            <li style="text-decoration: none;list-style-type: none;"> <i class="fab fa-html5"></i> HTML</li>
+                            <li style="text-decoration: none;list-style-type: none;"> <i class="fab fa-css3"></i> CSS</li>
+                            <li style="text-decoration: none;list-style-type: none;"> <i class="fab fa-js"></i> JAVASCRIPT</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 text-center text-white">
+                        <p>Project Completed</p>
+                        <hr style="border: 2px solid #999; width: 10%;border-radius: 5px;" />
+                        <ul class="text-center">
+                            <li style="text-decoration: none;list-style-type: none;"> <i class="fab fa-github"></i> PiggyVest Login </li>
+                            <li style="text-decoration: none;list-style-type: none;"> <i class="fab fa-github"></i> CSS</li>
+                            <li style="text-decoration: none;list-style-type: none;"> <i class="fab fa-github"></i> JAVASCRIPT</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div id="contact" class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 text-white">
+                        <h1 class="lead text-center py-5">Contact Me</h1>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 text-white"></div>
+                    <div class="col-md-4 text-white">
+                        <form action="/action_page.php">
+                            <div class="">
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="form-control custom-input" placeholder="Enter email" id="email">
+                                </div>  
+                            </div>
+                            <div class="">  
+                                <div class="form-group">
+                                    <label for="message">Message</label>
+                                    <textarea class="form-control custom-input" rows="2" placeholder="Write a messagae..." id="message"></textarea>
+                                </div>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary custom-input-button">Submit</button>
+                        </form>
+                    </div>
+                    <div class="col-md-4 text-white"></div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <footer class="text-center py-3" id="footer">           
+                <a href="#" class="link ml-5">
+                    <i class="fab fa-facebook"></i> Facebook
+                </a>
+                
+                <a href="#" class="link ml-5">
+                    <i class="fab fa-github"></i> Github
+                </a>
+
+                <a href="#" class="link ml-5">
+                    <i class="fab fa-twitter"></i> Twitter
+                </a>
+            </footer>
+        </section>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
